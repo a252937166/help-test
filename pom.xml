@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.ouyanglol</groupId>
     <artifactId>spring-help-mock-starter</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>help-test</name>
     <description>Demo project for Spring Boot</description>
     <url>https://github.com/a252937166/help-test</url>
