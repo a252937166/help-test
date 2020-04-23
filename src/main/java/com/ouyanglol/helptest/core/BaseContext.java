@@ -26,8 +26,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * Package: com.ouyang.core
  *
- * @Author: Ouyang
- * @Date: 2018/1/26
+ * @author Ouyang
  */
 @Component
 @ConditionalOnBean(annotation = EnableMock.class)
