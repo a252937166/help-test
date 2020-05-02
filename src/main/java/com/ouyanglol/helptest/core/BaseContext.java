@@ -68,7 +68,7 @@ public class BaseContext implements ApplicationContextAware {
                         for (Field field : curClass.getDeclaredFields()) {
                             HelpMockBean annotation = field.getAnnotation(HelpMockBean.class);
                             if (annotation != null) {
-                                mockMap.put(annotation.beanClass(), field.getType().newInstance());
+                                mockMap.put(field.getType(), annotation.beanClass().newInstance());
                             }
                         }
                     }

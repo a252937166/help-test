@@ -10,9 +10,9 @@
     </parent>
     <groupId>com.ouyanglol</groupId>
     <artifactId>spring-help-mock-starter</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <name>help-test</name>
-    <description>Demo project for Spring Boot</description>
+    <description>help for test mock beans</description>
     <url>https://github.com/a252937166/help-test</url>
 
     <properties>
